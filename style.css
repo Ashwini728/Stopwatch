@@ -1,0 +1,49 @@
+body{
+    background-image: url(/BG.webp);
+    background-size:auto;
+    text-align: center;
+    font-size: 3cqmax;
+    padding-left:5cm;
+    padding-right: 5cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#clock-cont{
+  border: solid;
+  border-radius: 0.5cm;
+  padding:2cm;
+  background-color: rgba(245, 245, 220, 0.445);
+}
+#start{
+    background-color: rgb(40, 218, 40);
+
+}
+#stop{
+    background-color: rgba(240, 16, 16, 0.726);
+}
+#Reset{
+    background-color: rgb(40, 218, 218);
+}
+#start:hover{
+    background-color: rgb(5, 119, 5);
+
+}
+#stop:hover{
+    background-color: rgba(122, 9, 9, 0.726);
+}
+#Reset:hover{
+    background-color: rgb(17, 116, 116);
+}
+#clock{
+    text-align: center;
+    font-size: cm;
+    padding-bottom: 1cm;
+}
+#control button{
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor:pointer;
+    min-width: 125px;
+    align-content: space-evenly;
+}
